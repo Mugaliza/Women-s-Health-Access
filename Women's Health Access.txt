@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Women's Health Access</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero-section">
+    <div class="hero-content">
+      <h1>Accessible Safe Abortion Services</h1>
+      <p>Compassionate care. Evidence-based solutions. Global reach.</p>
+    </div>
+  </header>
+
+  <section class="info-section placard">
+    <h2>Medical Abortion (MA)</h2>
+    <p>
+      We distribute mifepristone and misoprostol for safe, self-managed abortion. 
+      Our trained healthcare workers offer guidance and support throughout the process.
+    </p>
+    <!-- 🟩 REPLACE IMAGE IF NEEDED -->
+    <img src="https://images.unsplash.com/photo-1621484041464-6d44e057e08f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Medical abortion pills">
+  </section>
+
+  <section class="info-section placard">
+    <h2>Manual Vacuum Aspiration (MVA)</h2>
+    <p>
+      As a distributor of Ipas MVA kits, we ensure surgical abortion procedures are safe, sterile, and effective.
+    </p>
+    <!-- 🟩 REPLACE IMAGE IF NEEDED -->
+    <img src="https://images.unsplash.com/photo-1597764699514-1b6c3d7a1f8d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Sterile medical equipment">
+  </section>
+
+  <section class="info-section placard">
+    <h2>Training Healthcare Providers</h2>
+    <p>
+      We upskill thousands of providers worldwide in abortion techniques and counseling to ensure women get the care they deserve.
+    </p>
+    <!-- 🟩 REPLACE IMAGE IF NEEDED -->
+    <img src="https://images.unsplash.com/photo-1576765607924-029a76be5e5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Medical training">
+  </section>
+
+  <section class="info-section placard">
+    <h2>Reducing Stigma</h2>
+    <p>
+      Our campaigns promote awareness, reduce fear, and create informed communities by openly discussing reproductive rights.
+    </p>
+    <!-- 🟩 REPLACE IMAGE IF NEEDED -->
+    <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Awareness campaign">
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Women's Health Access. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* 🟩 YOU CAN SWITCH COLORS HERE */
+:root {
+  --primary-color: #4B0082; /* Indigo */
+  --accent-color: #00FF9F; /* Neon green accent */
+  --bg-light: #ffffff;
+  --text-dark: #1a1a1a;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--primary-color), #6a0dad);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+}
+
+.info-section {
+  background-color: var(--bg-light);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-left: 5px solid var(--accent-color);
+  transition: transform 0.3s;
+}
+
+.info-section:hover {
+  transform: scale(1.02);
+}
+
+.placard {
+  border-radius: 12px;
+}
+
+.info-section h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.info-section img {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 10px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #222;
+  color: #ccc;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
